@@ -11,11 +11,6 @@ date: 2018-12-13
 
 \\\
 include image
-
-
-
-
-
 size= 300
 width= size * 3
 hight= size * 2
@@ -32,31 +27,24 @@ RCWWC= underlay-xy(WWC, 50, 75,RC)
 Combined= underlay-xy(RRRC, 225, 150,RCWWC)
 
 RL= rectangle( width, hight, "solid", "crimson")
-
-
-
-
-
-
 w= size * 3
 H= size * 2 
 Rc= size * 1/2
 
-
 R= rectangle(w, H, "solid", "crimson")
 C= circle( Rc,"solid","white")
 WC= circle( Rc / 1.5,"solid","crimson")
-
 
 Base= underlay-xy(R, 275,150 ,C)
 Base2= underlay-xy(Base, 345,170 ,WC)
 \\\
 
 
+!{ Flag Image](/image/Tuna.png)
 
 
 
-
+When coding this I encountered many challenges 
 
 
 
